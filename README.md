@@ -1,24 +1,18 @@
-# README
+# Rails / ClojureScript Starter Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Note: this template is work in progress. Many things probably don't work as expected.
 
-Things you may want to cover:
+A simple minimalistic starter template for a Rails server side app with a ClojureScript/Reagent client.
 
-* Ruby version
+What's Inside:
 
-* System dependencies
+1. Rake task `cljs:compile` to compile clojure app to production
 
-* Configuration
+2. Modified `assets:precompile` to include `cljs:compile`
 
-* Database creation
+3. Rake task `cljs:watch` to start watching clojurescript app for changes
 
-* Database initialization
+4. A helper `cljs_module_tag` to insert a ClojureScript module (based on its name in the cljs manifest)
 
-* How to run the test suite
+5. ClojureScript/Reagent app using shadow-cljs
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
