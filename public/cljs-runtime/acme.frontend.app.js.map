@@ -1,0 +1,1 @@
+{"version":3,"sources":["acme/frontend/app.cljs"],"mappings":";;AAEA,AAAA,AAAMA;AAAN,AACE,AAAA,AAACC","names":["acme.frontend.app/init","cljs.core.println"],"sourcesContent":["(ns acme.frontend.app)\n\n(defn init []\n  (println \"Hello World\"))\n"]}
